@@ -1,0 +1,10 @@
+@import "variables";
+
+.header {
+  background-color: $background-color;
+  height: 100vh;
+
+  &__logo {
+    padding: 1rem;
+  }
+}

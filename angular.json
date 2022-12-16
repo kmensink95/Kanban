@@ -27,7 +27,11 @@
             "styles": ["src/styles.scss"],
             "scripts": [],
             "stylePreprocessorOptions": {
-              "includePaths": ["src/styles.scss"]
+              "includePaths": [
+                "src/assets/scss/helpers",
+                "src/assets/scss/mixins",
+                "src/assets/scss"
+              ]
             }
           },
           "configurations": {
