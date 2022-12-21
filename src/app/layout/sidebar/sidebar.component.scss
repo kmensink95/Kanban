@@ -1,8 +1,10 @@
 @import "variables";
+@import "breakpoints";
 
 .header {
   background-color: $background-color;
   height: 100vh;
+  width: 11vw;
 
   &__logo {
     padding: 1rem;
